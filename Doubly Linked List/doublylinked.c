@@ -10,6 +10,11 @@ int searchint(int x);
 int compare_fn(int a,int b)
 {
     //Write the compare function for the variables 'a' and 'b' and return the value
+	if(a>b=)
+		return 1;
+	else
+		return 0;
+	
 }
 
 int compare_no=1;
