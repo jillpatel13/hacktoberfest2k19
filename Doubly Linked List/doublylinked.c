@@ -77,6 +77,11 @@ int insertdata(int x)
     if(top==NULL)
     {
         //Write a code for this particular condition where TOP == NULL
+	struct node* newnode=malloc(sizeof(struct node));
+	newnode->data=x;
+	newnode->next=NULL;
+	newnode->prev=NULL;
+	top=newnode;
     }
     else if(compare_fn(top->data ,x)==compare_no)
     {
